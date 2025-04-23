@@ -1,4 +1,13 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+## Kelompok 11
+Nikola Iriandi Setiawan <br>
+Alvharet Vandeva<br>
+Anglditha <br>
+Humaidah Az zahra J
+
+Deskripsi singkat proyek : Membuat Sistem kebutuhan toko Pak Rangga yang mencakup dashboard admin dan perspektif User.
+
+https://github.com/AlvharetVandeva/siwebuts
+https://siwebuts-abfajwczx-alvharet-lombus-projects.vercel.app
 
 ## Getting Started
 
