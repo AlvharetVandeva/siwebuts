@@ -3,5 +3,6 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/admin": "pages/admin.js",
-  "/admin/histori": "pages/admin/histori.js"
+  "/admin/histori": "pages/admin/histori.js",
+  "/login": "pages/login.js"
 }

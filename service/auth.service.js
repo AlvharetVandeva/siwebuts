@@ -1,6 +1,6 @@
 import users from "./data/users"; // ubah nama import jadi jamak (lebih deskriptif)
 export const login = (email, password) => {
-  const matchedUsers = users.filter(u => u.email === email && u.password === password);
+  const matchedUsers = users.filter(u => u.username === email && u.password === password);
   console.log(matchedUsers);
   if (matchedUsers.length > 0) {
     const token = `mock-token-${Math.random().toString(36).substring(2, 15)}`;
