@@ -3,12 +3,12 @@ import { useRouter } from 'next/router';
 // Jika kamu menggunakan alias, pastikan alias tersebut dikonfigurasi di jsconfig.json/tsconfig.json;
 // Jika tidak, gunakan path relatif, misalnya: import { isAuthenticated, getCurrentUser, isAdmin, logout } from '../../utils/auth';
 import { getCurrentUser, isAdmin, logout } from '@/pages/utils/auth';
-import { isAuthenticated } from '@/pages/service/auth.service'
+import { isAuthenticated } from '@/service/auth.service'
 import Loading from '../Layout/Loading';
 import Link from 'next/link';
-import { countProduct } from '@/pages/service/product.service';
-import { getAllTransactions } from '@/pages/service/transaction.service';
-import { totalIncome } from '@/pages/service/transaction.service';
+import { countProduct } from '@/service/product.service';
+import { getAllTransactions } from '@/service/transaction.service';
+import { totalIncome } from '@/service/transaction.service';
 
 const Dashboard = () => {
   const router = useRouter();

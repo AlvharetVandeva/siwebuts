@@ -1,4 +1,4 @@
-import { productsData } from "@/pages/service/data/products"
+import { productsData } from "@/service/data/products"
 
 export function addProduct(data) {
     const product = productsData.push(data)

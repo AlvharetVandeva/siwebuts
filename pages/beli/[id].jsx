@@ -1,10 +1,10 @@
 import { useRouter } from 'next/router';
-import { productsData } from '@/pages/service/data/products';
+import { productsData } from '@/service/data/products';
 import Layout from '../components/Layout/Layout';
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
-import { createTransaction } from '../service/transaction.service';
-import { isAuthenticated } from '@/pages/service/auth.service'
+import { createTransaction } from '../../service/transaction.service';
+import { isAuthenticated } from '@/service/auth.service'
 
 export default function Page() {
     const router = useRouter();

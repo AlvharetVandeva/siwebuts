@@ -1,7 +1,7 @@
 import Link from "next/link"
 import Layout from "./components/Layout/Layout"
-import { registerUser } from "./service/user.service";
-import { login } from "./service/auth.service";
+import { registerUser } from "../service/user.service";
+import { login } from "../service/auth.service";
 
 export default function register() {
 

@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { getAllTransactions } from '@/pages/service/transaction.service';
+import { getAllTransactions } from '@/service/transaction.service';
 import { useEffect, useState } from 'react';
 export default function HistoriTransaksi() {
   const [transactions, setTransactions] = useState([]);

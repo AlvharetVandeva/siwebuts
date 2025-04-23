@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { productsData, katalogProduct } from '@/pages/service/data/products';
+import { productsData, katalogProduct } from '@/service/data/products';
 import Link from 'next/link';
 
 const Katalog = (props) => {

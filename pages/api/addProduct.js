@@ -1,7 +1,7 @@
 import multer from "multer";
 import path from "path";
-import { productsData } from "../service/data/products";
-import { addProduct } from "../service/product.service";
+import { productsData } from "../../service/data/products";
+import { addProduct } from "../../service/product.service";
 
 // Konfigurasi multer untuk menyimpan file di folder public/images
 const storage = multer.diskStorage({
