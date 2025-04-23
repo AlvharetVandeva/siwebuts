@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
 // Gunakan path relatif jika folder utils berada di root
-import { isAuthenticated, getCurrentUser } from '@/pages/utils/auth';
+import { isAuthenticated, getCurrentUser } from '@/utils/auth';
 import { login } from "../../../service/auth.service";
 
 const LoginPage = () => {

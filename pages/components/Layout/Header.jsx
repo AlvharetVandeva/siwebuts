@@ -2,7 +2,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { useEffect, useState } from 'react';
 import { isAuthenticated } from '@/service/auth.service';
-import { logout } from '@/pages/utils/auth';
+import { logout } from '@/utils/auth';
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
