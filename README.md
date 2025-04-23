@@ -7,7 +7,7 @@ Humaidah Az zahra J
 Deskripsi singkat proyek : Membuat Sistem kebutuhan toko Pak Rangga yang mencakup dashboard admin dan perspektif User.
 
 https://github.com/AlvharetVandeva/siwebuts
-https://siwebuts-abfajwczx-alvharet-lombus-projects.vercel.app
+https://siwebuts.vercel.app/
 
 ## Getting Started
 
